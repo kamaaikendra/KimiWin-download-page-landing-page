@@ -82,7 +82,7 @@ function trackDownloadButtonClick() {
     database.ref('button_clicks/').push(clickData);
     
     // Initiate download
-    window.location.href = 'https://apk.e-droid.net/apk/app3601702-6qc1pr.apk?v=4';
+    window.location.href = 'https://apk.e-droid.net/apk/app3601702-6qc1pr.apk?v=6';
     
     // Track the actual download
     trackDownload();
